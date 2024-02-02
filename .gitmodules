@@ -1,3 +1,3 @@
-[submodule "my-storage-sub"]
-	path = my-storage-sub
+[submodule "my-storage-submodule"]
+	path = my-storage-submodule
 	url = https://github.com/Narvane/my-storage
