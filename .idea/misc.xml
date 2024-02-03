@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/my-storage/pom.xml" />
+        <option value="$PROJECT_DIR$/experiments/infra-flux/pom.xml" />
       </list>
     </option>
   </component>
