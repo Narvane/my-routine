@@ -8,6 +8,7 @@ It is important to note that I will be giving up complex modeling or modeling th
 - Java
 - Spring Boot
 - PostgresSql
+- Maven
 - JPA
 - Flyway
 - Docker
