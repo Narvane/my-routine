@@ -14,7 +14,7 @@ It is important to note that I will be giving up complex modeling or modeling th
 - Docker
 - Hexagonal archtecture (A few concepts)
 - DDD (A few concepts)
-- Microservices archtecture_(Soon)_
+- Microservices archtecture _(Soon)_
 - Kubernetes _(Soon)_
 - Messaging & Queues _(Soon)_
 - Node Express _(Soon)_
