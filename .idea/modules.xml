@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/my-storage/api-webmvc/api-webmvc.iml" filepath="$PROJECT_DIR$/my-storage/api-webmvc/api-webmvc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/my-storage/infra-flux/infra-flux.iml" filepath="$PROJECT_DIR$/my-storage/infra-flux/infra-flux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/experiments/infra-flux/infra-flux.iml" filepath="$PROJECT_DIR$/experiments/infra-flux/infra-flux.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-storage/infra-mvc/infra-mvc.iml" filepath="$PROJECT_DIR$/my-storage/infra-mvc/infra-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-storage/migrations/migrations.iml" filepath="$PROJECT_DIR$/my-storage/migrations/migrations.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-storage/model/model.iml" filepath="$PROJECT_DIR$/my-storage/model/model.iml" />
