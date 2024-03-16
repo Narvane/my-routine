@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="model" />
         <module name="infra-flux" />
-        <module name="migrations" />
         <module name="infra-mvc" />
         <module name="api-webmvc" />
       </profile>

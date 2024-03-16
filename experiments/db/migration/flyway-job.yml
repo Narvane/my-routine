@@ -1,0 +1,67 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: flyway-job
+spec:
+  template:
+    spec:
+      containers:
+        - name: flyway
+          image: flyway:flyway
+          args:
+            - info
+            - repair
+            - migrate
+            - info
+          env:
+            - name: FLYWAY_URL
+              value: jdbc:postgresql://postgres-service:5432/my-storage
+            - name: FLYWAY_USER
+              value: admin
+            - name: FLYWAY_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: POSTGRES_PASSWORD
+            - name: FLYWAY_PLACEHOLDER_REPLACEMENT
+              value: "true"
+            - name: FLYWAY_PLACEHOLDERS_USERNAME
+              valueFrom:
+                configMapKeyRef:
+                  name: postgres-configmap
+                  key: POSTGRES_USER
+            - name: FLYWAY_PLACEHOLDERS_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: POSTGRES_PASSWORD
+          volumeMounts:
+            - mountPath: /flyway/sql
+              name: sql
+      volumes:
+        - name: sql
+          persistentVolumeClaim:
+            claimName: flyway-pvc
+      restartPolicy: Never
+
+
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: flyway-job
+spec:
+  template:
+    spec:
+      containers:
+        - name: flyway
+          image: flyway/flyway
+          command: ["flyway", "-url=jdbc:postgresql://postgres-service:5432/my-storage", "-schemas=public", "-user=admin", "-password=admin", "-connectRetries=60", "migrate"]
+          volumeMounts:
+            - name: sql-volume
+              mountPath: /flyway/sql
+      volumes:
+        - name: sql
+          persistentVolumeClaim:
+            claimName: flyway-pvc
+      restartPolicy: Never
+  backoffLimit: 4
