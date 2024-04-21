@@ -8,5 +8,5 @@
     path = my-infra
     url = https://github.com/Narvane/my-infra
 [submodule "my-gateway"]
-    path = my-gateway
-    url = https://github.com/Narvane/my-gateway
+	path = my-gateway
+	url = https://github.com/Narvane/my-gateway.git
