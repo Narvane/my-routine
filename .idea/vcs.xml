@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-gateway" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/my-infra" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/my-storage" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/my-storage-front" vcs="Git" />
