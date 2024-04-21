@@ -5,8 +5,8 @@
 	path = my-storage-front
 	url = https://github.com/Narvane/my-storage-front
 [submodule "my-infra"]
-    path = my-infra
-    url = https://github.com/Narvane/my-infra
+	path = my-infra
+	url = https://github.com/Narvane/my-infra.git
 [submodule "my-gateway"]
 	path = my-gateway
 	url = https://github.com/Narvane/my-gateway.git
