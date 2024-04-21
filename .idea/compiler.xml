@@ -11,6 +11,7 @@
         <module name="model" />
         <module name="infra-flux" />
         <module name="infra" />
+        <module name="my-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="infra-flux" target="17" />
       <module name="migrations" target="17" />
       <module name="model" target="17" />
+      <module name="my-gateway" target="1.5" />
       <module name="my-storage" target="17" />
     </bytecodeTargetLevel>
   </component>

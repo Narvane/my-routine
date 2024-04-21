@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/my-storage/infra/infra.iml" filepath="$PROJECT_DIR$/my-storage/infra/infra.iml" />
       <module fileurl="file://$PROJECT_DIR$/experiments/infra-flux/infra-flux.iml" filepath="$PROJECT_DIR$/experiments/infra-flux/infra-flux.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-storage/model/model.iml" filepath="$PROJECT_DIR$/my-storage/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-gateway/my-gateway.iml" filepath="$PROJECT_DIR$/my-gateway/my-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/my-routine.iml" filepath="$PROJECT_DIR$/.idea/my-routine.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-storage/my-storage.iml" filepath="$PROJECT_DIR$/my-storage/my-storage.iml" />
     </modules>

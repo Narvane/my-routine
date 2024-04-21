@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/my-storage/pom.xml" />
         <option value="$PROJECT_DIR$/experiments/infra-flux/pom.xml" />
+        <option value="$PROJECT_DIR$/my-gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
