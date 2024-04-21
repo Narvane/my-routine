@@ -7,20 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="app" />
         <module name="model" />
         <module name="infra-flux" />
-        <module name="infra-mvc" />
-        <module name="api-webmvc" />
+        <module name="infra" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-webflux" target="17" />
-      <module name="api-webmvc" target="17" />
+      <module name="app" target="17" />
+      <module name="infra" target="17" />
       <module name="infra-flux" target="17" />
-      <module name="infra-mvc" target="17" />
       <module name="migrations" target="17" />
       <module name="model" target="17" />
-      <module name="mystorage" target="17" />
+      <module name="my-storage" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/my-storage/api-webmvc/api-webmvc.iml" filepath="$PROJECT_DIR$/my-storage/api-webmvc/api-webmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-storage/app/app.iml" filepath="$PROJECT_DIR$/my-storage/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-storage/infra/infra.iml" filepath="$PROJECT_DIR$/my-storage/infra/infra.iml" />
       <module fileurl="file://$PROJECT_DIR$/experiments/infra-flux/infra-flux.iml" filepath="$PROJECT_DIR$/experiments/infra-flux/infra-flux.iml" />
-      <module fileurl="file://$PROJECT_DIR$/my-storage/infra-mvc/infra-mvc.iml" filepath="$PROJECT_DIR$/my-storage/infra-mvc/infra-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-storage/model/model.iml" filepath="$PROJECT_DIR$/my-storage/model/model.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/my-routine.iml" filepath="$PROJECT_DIR$/.idea/my-routine.iml" />
-      <module fileurl="file://$PROJECT_DIR$/my-storage/mystorage.iml" filepath="$PROJECT_DIR$/my-storage/mystorage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-storage/my-storage.iml" filepath="$PROJECT_DIR$/my-storage/my-storage.iml" />
     </modules>
   </component>
 </project>

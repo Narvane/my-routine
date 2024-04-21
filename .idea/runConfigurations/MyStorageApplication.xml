@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="ApiWebMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-    <module name="api-webmvc" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="com.narvane.apimvc.ApiWebMvcApplication" />
+  <configuration default="false" name="MyStorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <module name="app" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.narvane.app.MyStorageApplication" />
     <extension name="net.ashald.envfile">
       <option name="IS_ENABLED" value="false" />
       <option name="IS_SUBST" value="false" />
